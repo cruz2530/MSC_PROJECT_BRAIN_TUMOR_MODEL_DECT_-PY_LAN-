@@ -1,0 +1,21 @@
+to successfully launch the app and use models, ensure that all modules are correctly installedwithin an anaconda environment, and update the model paths to match the system current path
+
+
+//.......
+MODULES
+
+streamlit
+tensorflow
+opencv-python
+
+//........................
+PARTHS
+
+to successfully load the models, the user should modify the models path from line 43 and 51 to match their local system path where the models are saved
+
+//................................
+
+DEPLOY
+
+1. activate streamlit environment (conda activate streamlit) 
+2. lunch app(streamlit run "copy and paste the system path for the 'brain-tumor-deployment.py' file")
